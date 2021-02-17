@@ -1,8 +1,7 @@
 
-# Homework: React 2 α 
+# Course Scheduling Website 
 
-This assignment is meant to introduce you to more features of React. This is the second α, feature based, assignment in which you will extend the features of a course scheduling application. This application uses a limited quantity of modified data from the UW Madison course information database. With this assignment, you will extend the features of react1 α to create a course recommendation system.
-
+This application uses a limited quantity of modified data from the UW Madison course information database.
 
 ## Course data
 
@@ -41,17 +40,10 @@ The course data is being fetched from `http://mysqlcs639.cs.wisc.edu:53706/api/r
 ]
 ```
 
-- The list of course requisites consists of 1D lists with AND operations between them. Each 1D list has OR operations between elements. For example: `[[A, B], [C, D, E], [F]]` means that the requisites are `(A OR B) AND (C OR D OR E) AND (F)`. The requisites will be represented as the course's alpha-numeric key used in the outermost object.
-- Sections and subsections can have any number of times. Each time's key is a weekday in all lowercase ("monday", "tuesday", "wednesday", ...). Each time's value is a string with the following format: `"<12 hour time><am or pm> - <12 hour time><am or pm>"`. An example of this would be `"11:45am - 12:35pm"`.
-- Each course has exactly one subject
-
-```
-Your project must be able to accept any data with the same format as above and the data located at http://mysqlcs639.cs.wisc.edu:53706/api/react/classes
-```
 
 # Recommender
 
-## Problem 1 (1 point)
+## Feature 1
 
 <video width="320" height="240" controls>
   <source src="/Users/yangxc/Desktop/demo1.mov" type="video/mp4">
