@@ -46,8 +46,6 @@ The course data is being fetched from `http://mysqlcs639.cs.wisc.edu:53706/api/r
 ```
 
 
-# Recommender
-
 ## Feature 1
 
 <video width="320" height="240" controls>
